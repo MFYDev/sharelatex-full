@@ -3,7 +3,7 @@ version: '2.2'
 services:
     sharelatex:
         restart: always
-        image: tuetenk0pp/sharelatex-full:latest
+        image: mfydev/sharelatex-full:latest
         container_name: sharelatex-full
         depends_on:
             mongo:
